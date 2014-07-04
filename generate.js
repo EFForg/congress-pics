@@ -120,7 +120,7 @@ return ;
 
 	//draw the circle
 	ctx.stroke();
-    ctx.font = '20px Impact';
+    ctx.font = '16px Impact';
 
 	var details = '';
     if (repTitle == 'Sen') {
