@@ -1,0 +1,23 @@
+{
+  "name": "congress-pics",
+  "version": "0.0.0",
+  "description": "congress-pics =============",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EFForg/congress-pics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EFForg/congress-pics/issues"
+  },
+  "homepage": "https://github.com/EFForg/congress-pics",
+  "dependencies": {
+    "canvas": "^1.1.5",
+    "lodash": "^2.4.1"
+  }
+}
