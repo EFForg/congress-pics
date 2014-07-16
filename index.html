@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href="http://necolas.github.io/normalize.css/3.0.1/normalize.css" rel="stylesheet" />
+
+    <style>
+    @font-face {
+  font-family: 'antoniobold';
+  src: url('fonts/antonio/antonio-bold-webfont.eot');
+  src: url('fonts/antonio/antonio-bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/antonio/antonio-bold-webfont.woff') format('woff'),
+        url('fonts/antonio/antonio-bold-webfont.ttf') format('truetype'),
+        url('fonts/antonio/antonio-bold-webfont.svg#antoniobold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'antoniolight';
+  src: url('fonts/antonio/antonio-light-webfont.eot');
+  src: url('fonts/antonio/antonio-light-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/antonio/antonio-light-webfont.woff') format('woff'),
+        url('fonts/antonio/antonio-light-webfont.ttf') format('truetype'),
+        url('fonts/antonio/antonio-light-webfont.svg#antoniolight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'antonioregular';
+  src: url('fonts/antonio/antonio-regular-webfont.eot');
+  src: url('fonts/antonio/antonio-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/antonio/antonio-regular-webfont.woff') format('woff'),
+        url('fonts/antonio/antonio-regular-webfont.ttf') format('truetype'),
+        url('fonts/antonio/antonio-regular-webfont.svg#antonioregular') format('svg');
+  font-weight: normal;
+  color: #007EFF;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sansextrabold';
+  src: url('fonts/opensans_extrabold/OpenSans-ExtraBold-webfont.eot');
+  src: url('fonts/opensans_extrabold/OpenSans-ExtraBold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/opensans_extrabold/OpenSans-ExtraBold-webfont.woff') format('woff'),
+        url('fonts/opensans_extrabold/OpenSans-ExtraBold-webfont.ttf') format('truetype'),
+        url('fonts/opensans_extrabold/OpenSans-ExtraBold-webfont.svg#open_sansextrabold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sansregular';
+  src: url('fonts/opensans_regular/OpenSans-Regular-webfont.eot');
+  src: url('fonts/opensans_regular/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/opensans_regular/OpenSans-Regular-webfont.woff') format('woff'),
+        url('fonts/opensans_regular/OpenSans-Regular-webfont.ttf') format('truetype'),
+        url('fonts/opensans_regular/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sanssemibold';
+  src: url('fonts/opensans_semibold/OpenSans-Semibold-webfont.eot');
+  src: url('fonts/opensans_semibold/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/opensans_semibold/OpenSans-Semibold-webfont.woff') format('woff'),
+        url('fonts/opensans_semibold/OpenSans-Semibold-webfont.ttf') format('truetype'),
+        url('fonts/opensans_semibold/OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+      body {
+        background-color: #111;
+      }
+      .container {
+        width: 900px;
+        height: 450px;
+        margin: auto;
+        margin-top: 100px;
+        background-image: url("bg.jpg");
+        position: relative;
+      }
+      .footer {
+
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 50px;
+        background-color: #000;
+        color: #fff;
+        font-family: antoniobold;
+        font-size: 24px;
+        opacity: 0.9;
+      }
+      .footer .title {
+        margin-left: 15px;
+        line-height: 50px;
+      }
+      .footer .location {
+        font-size: 15px;
+        float: right;
+        line-height: 50px;
+        margin-right: 15px;
+      }
+      .header .title {
+        line-height: 50px;
+        font-size: 26px;
+      }
+      .header .website {
+        color: #fff;
+      }
+      .header .logo {
+        width: 66px;
+        height: 37px;
+        background-image: url("logo.png");
+        float: left;
+        margin-top: 8px;
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+      .header {
+
+        position: absolute;
+        top: 0;
+        height: 50px;
+        width: 100%;
+        background-color: #007eff;
+        font-family: antoniobold;
+      }
+      .person {
+        opacity: 0.9;
+        width: 170px;
+        height: 208px;
+        background-size: 170px 208px;
+        background-image: url("personbig.jpg");
+        position: absolute;
+        top: 80px;
+        left: 40px;
+        border: 2px solid #222;
+      }
+      .circle
+    {
+    width:200px;
+    height:200px;
+    border-radius:100px;
+    font-size:70px;
+    color:#fff;
+    line-height:200px;
+    text-align:center;
+    background:#000;
+    position: absolute;
+    right: 100px;
+    top: 80px;
+    }
+    .message {
+      position: absolute;
+      color: #fff;
+      top: 350px;
+      left: 50px;
+      font-size: 18px;
+      font-family: "open_sansregular";
+    }
+    </style>
+
+</head>
+
+
+    <body>
+      <div class="container">
+      <div class="header">
+          <div class="logo"></div><span class="title">Where does your rep stand? <span class="website">www.standagainstspying.org</span></span>
+
+      </div>
+      <div class="circle">A</div>
+      <div class="message"> This lawmaker's record on reforming NSA spying is poor-but there's still time to improve it. </div>
+      <div class="person">
+      </div>
+        <div class="footer">
+        <span class="title">Rep. Robert Aderholt</span><span class="location">Alabama's 4th district</span>
+
+        </div>
+      </div>
+    </body>
+</html>
