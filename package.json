@@ -18,6 +18,8 @@
   "homepage": "https://github.com/EFForg/congress-pics",
   "dependencies": {
     "canvas": "^1.1.5",
-    "lodash": "^2.4.1"
+    "lodash": "^2.4.1",
+    "webshot": "^0.15.1",
+    "website": "^0.1.1"
   }
 }
