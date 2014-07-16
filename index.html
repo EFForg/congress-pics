@@ -89,7 +89,7 @@
         position: absolute;
         bottom: 0;
         width: 100%;
-        height: 50px;
+        height: 90px;
         background-color: #000;
         color: #fff;
         font-family: antoniobold;
@@ -98,12 +98,12 @@
       }
       .footer .title {
         margin-left: 15px;
-        line-height: 50px;
+        line-height: 120px;
       }
       .footer .location {
         font-size: 15px;
         float: right;
-        line-height: 50px;
+        line-height: 120px;
         margin-right: 15px;
       }
       .header .title {
@@ -132,7 +132,7 @@
         font-family: antoniobold;
       }
       .person {
-        opacity: 0.9;
+        opacity: 0.8;
         width: 170px;
         height: 208px;
         background-size: 170px 208px;
@@ -159,10 +159,23 @@
     .message {
       position: absolute;
       color: #fff;
-      top: 350px;
+      top: 370px;
       left: 50px;
       font-size: 18px;
       font-family: "open_sansregular";
+      z-index: 10000;
+    }
+    .scores {
+      color: #efefef ;
+      position: absolute;
+      left: 230px;
+      top: 150px;
+      font-family: "open_sansregular";
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .score {
+      color: #fff ;
     }
     </style>
 
@@ -179,6 +192,14 @@
       <div class="message"> This lawmaker's record on reforming NSA spying is poor-but there's still time to improve it. </div>
       <div class="person">
       </div>
+      <div class="scores">
+      Surveillance State Repeal Act: <span class="score">0</span><br />
+USA FREEDOM Act (original): <span class="score">4</span><br />
+Conyers-Amash Amendment: <span class="score">4</span><br />
+Massie-Lofgren Amendment: <span class="score">0</span><br />
+USA Freedom Act (House passed): <span class="score">-2</span><br />
+FISA Transparency & Modernization Act: <span class="score">0</span><br />
+</div>
         <div class="footer">
         <span class="title">Rep. Robert Aderholt</span><span class="location">Alabama's 4th district</span>
 
