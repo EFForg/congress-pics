@@ -72,17 +72,25 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'open_sansbold';
+  src: url('fonts/OpenSans-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
       body {
-        background-color: #111;
+        background-color: #fff;
+        padding: 0;
+        margin: 0;
       }
       .container {
-        width: 900px;
-        height: 450px;
-        margin: auto;
-        margin-top: 100px;
-        background-image: url("bg.jpg");
+        width: 1200px;
+        height: 630px;
+        background-image: url("new.jpg");
         position: relative;
+        padding: 0;
+        margin: 0;
       }
       .footer {
 
@@ -95,23 +103,17 @@
         font-family: antoniobold;
         font-size: 24px;
         opacity: 0.9;
-      }
-      .footer .title {
-        margin-left: 15px;
-        line-height: 120px;
-      }
-      .footer .location {
-        font-size: 15px;
-        float: right;
-        line-height: 120px;
-        margin-right: 15px;
+        text-align: center;
       }
       .header .title {
         line-height: 50px;
-        font-size: 26px;
+      font-family: "open_sanssemibold";
+        color: #fff;
+        font-size: 34px;
+        text-align :center;
       }
       .header .website {
-        color: #fff;
+        color: #000;
       }
       .header .logo {
         width: 66px;
@@ -125,22 +127,22 @@
       .header {
 
         position: absolute;
-        top: 0;
+        bottom: 0;
         height: 50px;
         width: 100%;
         background-color: #007eff;
         font-family: antoniobold;
       }
       .person {
-        opacity: 0.8;
-        width: 170px;
-        height: 208px;
-        background-size: 170px 208px;
-        background-image: url("personbig.jpg");
+        opacity: 0.9;
+        width: 347px;
+        height: 427px;
+        background-size: 347px 427px;
+        background-image: url("huge.jpg");
         position: absolute;
-        top: 80px;
-        left: 40px;
-        border: 2px solid #222;
+        top: 120px;
+        left: 30px;
+        border: 3px solid #bebebe;
       }
       .circle
     {
@@ -156,15 +158,6 @@
     right: 100px;
     top: 80px;
     }
-    .message {
-      position: absolute;
-      color: #fff;
-      top: 370px;
-      left: 50px;
-      font-size: 18px;
-      font-family: "open_sansregular";
-      z-index: 10000;
-    }
     .scores {
       color: #efefef ;
       position: absolute;
@@ -177,6 +170,76 @@
     .score {
       color: #fff ;
     }
+    .heading {
+      text-align:center;
+      font-size: 93px;
+      color: #494949;
+      font-family: "antoniobold";
+      width: 100%;
+      letter-spacing: 12px;
+      padding: 0;
+      margin: 0;
+      line-height: 88px;
+      padding-top: 21px;
+
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    }
+    .details-container {
+      color: #fff;
+      position: absolute;
+      top: 120px;
+      left: 410px;
+    }
+    .personname {
+      font-family: "antoniobold";
+      font-size: 60px;
+      line-height: 56px;
+      letter-spacing: 2px;
+    }
+    .personnamelast {
+      font-family: "antoniobold";
+      letter-spacing: 4px;
+      font-size: 121px;
+      line-height: 133px;
+
+    }
+    .scorecircle {
+      width: 220px;
+      float: left;
+      height: 220px;
+      margin-right: 20px;
+      margin-top: 10px;
+    }
+
+    .message {
+      color: #fff;
+      font-size: 38px;
+      float: left;
+      font-family: "open_sansbold";
+      z-index: 10000;
+      width: 510px;
+      line-height: 48px;
+      margin-top: 20px;
+    }
+    div.wrap {
+    border: 25px solid #007eff;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    text-align: center;
+}
+  .grade {
+    font-size: 150px;
+    line-height: 150px;
+    color: #007eff;
+      font-family: "open_sansbold";
+
+  }
+.green {
+  color: #8cc34b;
+}
     </style>
 
 </head>
@@ -184,24 +247,27 @@
 
     <body>
       <div class="container">
+      <div class="heading">SURVEILLANCE SCORECARD</div>
+    <div class="person">
+      </div>
+      <div class="details-container">
+      <div class="personname">REP. ROBERT</div>
+      <div class="personnamelast">ADERHOLT</div>
+      <div class="scorecircle"><div class="wrap"><div class="grade">A</div></div></div>
+      <div class="message"> This lawmaker's record on reforming NSA spying is poor-but there's still time to improve it. </div>
+
+      </div>
+      <!--
       <div class="header">
           <div class="logo"></div><span class="title">Where does your rep stand? <span class="website">www.standagainstspying.org</span></span>
 
       </div>
       <div class="circle">A</div>
-      <div class="message"> This lawmaker's record on reforming NSA spying is poor-but there's still time to improve it. </div>
-      <div class="person">
-      </div>
-      <div class="scores">
-      Surveillance State Repeal Act: <span class="score">0</span><br />
-USA FREEDOM Act (original): <span class="score">4</span><br />
-Conyers-Amash Amendment: <span class="score">4</span><br />
-Massie-Lofgren Amendment: <span class="score">0</span><br />
-USA Freedom Act (House passed): <span class="score">-2</span><br />
-FISA Transparency & Modernization Act: <span class="score">0</span><br />
-</div>
-        <div class="footer">
         <span class="title">Rep. Robert Aderholt</span><span class="location">Alabama's 4th district</span>
+  
+      -->
+        <div class="header">
+        <div class="title">Check out <span class="website">standagainstspying.org</span> to find your reps score.</div>
 
         </div>
       </div>
