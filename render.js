@@ -1,7 +1,7 @@
 var webshot = require('webshot');
 var fs = require('fs');
 var html = fs.readFileSync('index.html', 'utf8');
-webshot('http://localhost/github/congress-pics/index.html', 'hello_world.png', 
+webshot('http://localhost/github/congress-pics/index.html', 'state.png', 
 	{streamType: 'png', quality: 100,
 	windowSize:	
 { width: 1600
