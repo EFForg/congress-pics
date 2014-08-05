@@ -17,8 +17,11 @@
   },
   "homepage": "https://github.com/EFForg/congress-pics",
   "dependencies": {
+    "async": "^0.9.0",
     "canvas": "^1.1.5",
     "lodash": "^2.4.1",
+    "mustache": "^0.8.2",
+    "superagent": "^0.18.2",
     "webshot": "^0.15.1",
     "website": "^0.1.1"
   }

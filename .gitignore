@@ -1,3 +1,6 @@
+campaign/
+html/
+output/
 # Logs
 logs
 *.log
