@@ -157,17 +157,3 @@ async.eachSeries(Object.keys(reps), function(key, callback) {
 }, function () {
 	console.log('All done');
 });
-
-/*
-long names
-- andr carson
-- bordallo
-- donna christensen
-- tony cardenas
-- curtis clawson
-- faleomavaega
-- luis gutia
-- grijalva
-- hinojosa
-- ben luja
-*/
